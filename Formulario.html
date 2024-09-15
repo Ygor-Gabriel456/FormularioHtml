@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar Pix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form">
+        <form action="" method="post">
+            <h1>Gerador de Pix</h1><br>
+            
+            <p>Valide seus dados para gerar o pagamento!</p>
+            <br>
+            <div class="nome">Digite o nome</div>
+            <div>
+                <input type="text" name="nome" id="nome" required="required" placeholder="Digite seu nome completo">
+            </div>
+            <br>
+            <div class="CPF">Informe o cpf do receptor</div>
+            <div>
+                <input type="text" id="cpf" name="cpf" placeholder="informe seu cpf" required="required" size="11/">
+            </div>
+            <br>
+            <div class="Email">Para receber a confirmação do pix, informe seu email</div>
+            <div>
+                <input type="email" name="username">
+            </div>
+            <br>
+            <div class="mensagem">Mande alguma mensagem!</div>
+            <div>
+                <textarea name="mensagem" id="mensagem"></textarea>
+            </div>
+
+            <button class="button">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
